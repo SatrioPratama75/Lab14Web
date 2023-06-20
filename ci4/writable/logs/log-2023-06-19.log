@@ -1,0 +1,32 @@
+ERROR - 2023-06-19 22:25:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-06-19 22:25:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Lab14Web\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Lab14Web\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Lab14Web\ci4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Lab14Web\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Lab14Web\ci4\app\Controllers\Post.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Lab14Web\ci4\system\CodeIgniter.php(832): App\Controllers\Post->index()
+#6 C:\xampp\htdocs\Lab14Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\xampp\htdocs\Lab14Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab14Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab14Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-06-19 22:26:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-06-19 22:26:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Lab14Web\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Lab14Web\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Lab14Web\ci4\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Lab14Web\ci4\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Lab14Web\ci4\app\Controllers\Post.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Lab14Web\ci4\system\CodeIgniter.php(832): App\Controllers\Post->index()
+#6 C:\xampp\htdocs\Lab14Web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\xampp\htdocs\Lab14Web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Lab14Web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Lab14Web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
